@@ -23,7 +23,7 @@ Check out the [demo]().
 ```typescript
 import { Transform } from '@lugo/ngx-transform';
 
-@Transform({ target: MyEntityClass })
+@Transform({ target: EntityClass })
 export class EntityClass {}
 ```
 
@@ -90,7 +90,7 @@ If we fecth the next url https://jsonplaceholder.typicode.com/users, we will get
       "catchPhrase": "Multi-layered client-server neural-net",
       "bs": "harness real-time e-markets"
     }
-  }, ...]
+  }]
 ```
 
 We define our entity class of users and associate the paths we want to transform.

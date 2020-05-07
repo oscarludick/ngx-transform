@@ -5,7 +5,7 @@
     "ng": "ng",
     "start": "ng serve --project app",
     "build": "ng build --project ngx-transform",
-    "lint": "ng lint --project ngx-transform",
+    "lint": "ng lint --project ngx-transform"
   },
   "private": true,
   "dependencies": {
@@ -17,6 +17,7 @@
     "@angular/platform-browser": "~8.2.0",
     "@angular/platform-browser-dynamic": "~8.2.0",
     "@angular/router": "~8.2.0",
+    "@lugo/ngx-transform": "file:dist/@lugo/ngx-transform",
     "rxjs": "~6.4.0",
     "tslib": "^1.10.0",
     "zone.js": "~0.9.1"
