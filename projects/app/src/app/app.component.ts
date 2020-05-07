@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { UserService } from './services/employee.service';
+import { UserService } from './services/user.service';
 import { UserResponse } from './entities/user-response.entity';
 
 @Component({

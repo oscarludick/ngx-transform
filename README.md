@@ -7,14 +7,14 @@ Transform data objects in Angular!
 To use ngx-transform in your project install it via [npm](https://www.npmjs.com/package/@lugo/ngx-transform):
 
 ```
-npm i @lugo/ngx-transform --save
+npm i ngx-transform --save
 ```
 
 ## Usage
 
 Import the package in your entity class to use the decorators.
 
-Check out the [demo]().
+Check out the [demo](https://ngx-transform.stackblitz.io).
 
 ### Decorators
 
@@ -134,7 +134,7 @@ export class UserResponse {
 }
 ```
 
-Define a service to fecth the data and transform it.
+Define a service to fetch the data and transform it.
 ```typescript
 import { Injectable } from '@angular/core';
 import { UserResponse } from './entities/user-response.entity';

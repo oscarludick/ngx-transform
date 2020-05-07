@@ -1,12 +1,12 @@
 {
-  "name": "@lugo/ngx-transform",
+  "name": "ngx-transform",
   "version": "1.0.0",
   "description": "Transform data objects to any type with classes.",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/oscarludick/ngx-transform.git"
   },
-  "author": "lugo",
+  "author": "oscarludick",
   "maintainers": [
     "Oscar Ludick"
   ],
