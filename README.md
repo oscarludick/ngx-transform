@@ -4,7 +4,7 @@ Transform data objects in Angular!
 
 ## Install
 
-To use ngx-transform in your project install it via [npm](https://www.npmjs.com/package/@lugo/ngx-transform):
+To use ngx-transform in your project install it via [npm](https://www.npmjs.com/package/ngx-transform):
 
 ```
 npm i ngx-transform --save
