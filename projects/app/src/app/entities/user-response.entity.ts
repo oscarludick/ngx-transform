@@ -1,4 +1,4 @@
-import { Transform, AssociateProperty, AssociateModel } from '@lugo/ngx-transform';
+import { Transform, AssociateProperty, AssociateModel } from 'ngx-transform';
 
 @Transform({ target: UserResponse })
 export class UserResponse {
