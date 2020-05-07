@@ -1,6 +1,6 @@
 {
   "name": "ngx-transform",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "Transform data objects to any type with classes.",
   "repository": {
     "type": "git",

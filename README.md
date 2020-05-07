@@ -14,7 +14,7 @@ npm i ngx-transform --save
 
 Import the package in your entity class to use the decorators.
 
-Check out the [demo](https://ngx-transform.stackblitz.io).
+Check out the [demo](https://stackblitz.com/edit/ngx-transform).
 
 ### Decorators
 
