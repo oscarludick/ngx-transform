@@ -21,7 +21,7 @@ Check out the [demo](https://stackblitz.com/edit/ngx-transform).
 `@Transform()` use this decorator in your entity class, as param you must pass an object with the target class.
 
 ```typescript
-import { Transform } from '@lugo/ngx-transform';
+import { Transform } from 'ngx-transform';
 
 @Transform({ target: EntityClass })
 export class EntityClass {}
@@ -30,7 +30,7 @@ export class EntityClass {}
 `@AssociateModel()` associate a property with this decorator, this is where the result object will be stored.
 
 ```typescript
-import { Transform, AssociateModel } from '@lugo/ngx-transform';
+import { Transform, AssociateModel } from 'ngx-transform';
 
 @Transform({ target: MyEntityClass })
 export class EntityClass {
@@ -50,7 +50,7 @@ want to place it.
 ```
 
 ```typescript
-import { Transform, AssociateModel, AssociateProperty } from '@lugo/ngx-transform';
+import { Transform, AssociateModel, AssociateProperty } from 'ngx-transform';
 
 @Transform({ target: MyEntityClass })
 export class EntityClass {
@@ -96,7 +96,7 @@ If we fecth the next url https://jsonplaceholder.typicode.com/users, we will get
 We define our entity class of users and associate the paths we want to transform.
 
 ```typescript
-import { Transform, AssociateProperty, AssociateModel } from '@lugo/ngx-transform';
+import { Transform, AssociateProperty, AssociateModel } from 'ngx-transform';
 
 @Transform({ target: UserResponse })
 export class UserResponse {
