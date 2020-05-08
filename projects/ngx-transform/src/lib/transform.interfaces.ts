@@ -1,6 +1,6 @@
 export interface AssociateModel {
-  toPath?: string,
-  fromPath: string
+  toPath?: string;
+  fromPath: string;
 }
 
 export enum ParamType {
@@ -11,17 +11,17 @@ export enum ParamType {
 
 export enum PropType {
   association = 'association',
-  model = 'model'
+  model = 'model',
 }
 
 export interface ParamMeta {
-  index: number,
-  type: ParamType
+  index: number;
+  type: ParamType;
 }
 
 export interface PropertyMeta {
-  property: string,
-  target: any,
-  type: PropType,
-  associate?: AssociateModel
+  property: string;
+  target: any;
+  type: PropType;
+  associate?: AssociateModel;
 }

@@ -1,2 +1,2 @@
 export * from './entity.decorator';
-export * from './target.decorator'
+export * from './target.decorator';

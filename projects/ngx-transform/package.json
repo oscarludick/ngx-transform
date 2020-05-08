@@ -1,6 +1,10 @@
 {
   "name": "ngx-transform",
   "version": "0.0.1",
+  "main": "ngx-transform.bundle.js",
+  "module": "ngx-transform.module.js",
+  "jsnext:main": "ngx-transform.module.js",
+  "types": "ngx-transformng b.module.d.ts",
   "description": "Transform data objects to any type with classes.",
   "repository": {
     "type": "git",

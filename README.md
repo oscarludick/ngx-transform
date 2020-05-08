@@ -32,7 +32,7 @@ export class EntityClass {}
 ```typescript
 import { Transform, AssociateModel } from 'ngx-transform';
 
-@Transform({ target: MyEntityClass })
+@Transform({ target: EntityClass })
 export class EntityClass {
   @AssociateModel()
   model: any;
@@ -146,7 +146,7 @@ export class UserService {
   }
 
   /*
-  *
+  * Inject the service in any component
   * Fetch users data and cast to UserResponse.
   */
   query(): void {
