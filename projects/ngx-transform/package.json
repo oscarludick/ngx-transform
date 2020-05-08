@@ -1,6 +1,6 @@
 {
   "name": "ngx-transform",
-  "version": "0.0.1",
+  "version": "0.0.1-beta.0",
   "main": "ngx-transform.bundle.js",
   "module": "ngx-transform.module.js",
   "jsnext:main": "ngx-transform.module.js",
