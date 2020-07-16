@@ -1,13 +1,11 @@
 {
-  "name": "ngx-transform",
-  "version": "0.0.0",
+  "name": "ngx-transform-workspace",
+  "version": "1.0.0",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
-    "build": "ng build",
-    "test": "ng test",
-    "lint": "ng lint",
-    "e2e": "ng e2e"
+    "start": "ng serve --project app",
+    "build": "ng build --project ngx-transform",
+    "lint": "ng lint --project ngx-transform"
   },
   "private": true,
   "dependencies": {
