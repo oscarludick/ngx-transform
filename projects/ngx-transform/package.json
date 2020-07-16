@@ -1,0 +1,28 @@
+{
+  "name": "ngx-transform",
+  "version": "0.0.1-beta.2",
+  "description": "Transform data objects to any type with classes.",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/oscarludick/ngx-transform.git"
+  },
+  "author": "oscarludick",
+  "maintainers": [
+    "Oscar Ludick"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/oscarludick/ngx-transform#readme",
+  "peerDependencies": {},
+  "keywords": [
+    "angular",
+    "objects",
+    "entity",
+    "transform",
+    "data",
+    "transformation",
+    "casting",
+    "classes",
+    "entities",
+    "manipulation"
+  ]
+}
